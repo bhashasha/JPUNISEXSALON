@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JP Unisex Salon | Jaipur</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:linear-gradient(135deg,#f6f6f6,#ececec);
+    color:#333;
+    line-height:1.7;
+}
+header{
+    background:linear-gradient(90deg,#1c1c1c,#3a3a3a,#b8860b);
+    color:#fff;
+    padding:35px 15px;
+    text-align:center;
+}
+header h1{
+    font-size:2.6em;
+    margin-bottom:5px;
+}
+header p{
+    margin:5px 0;
+    font-size:1.05em;
+}
+nav{
+    background:#111;
+    padding:12px;
+    text-align:center;
+}
+nav a{
+    color:#f5d76e;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:600;
+}
+nav a:hover{
+    color:#fff;
+}
+.hero{
+    height:450px;
+    background:url("WhatsApp Image 2026-01-02 at 15.31.06.jpeg") center/cover no-repeat;
+}
+.container{
+    width:92%;
+    max-width:1200px;
+    margin:40px auto;
+    background:#ffffff;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.12);
+}
+.section-title{
+    font-size:2em;
+    color:#b8860b;
+    border-bottom:3px solid #222;
+    display:inline-block;
+    margin-bottom:25px;
+    padding-bottom:6px;
+}
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.service-box{
+    background:linear-gradient(135deg,#222,#444);
+    color:#fff;
+    padding:25px;
+    border-radius:10px;
+}
+.gallery img{
+    width:100%;
+    margin-top:25px;
+    border-radius:10px;
+    box-shadow:0 6px 12px rgba(0,0,0,0.15);
+}
+form input, form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:14px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+form button{
+    background:#b8860b;
+    color:#fff;
+    border:none;
+    padding:14px 30px;
+    font-size:1em;
+    border-radius:6px;
+    cursor:pointer;
+}
+form button:hover{
+    background:#222;
+}
+footer{
+    background:#111;
+    color:#eee;
+    text-align:center;
+    padding:30px 10px;
+}
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:#fff;
+    padding:15px 22px;
+    border-radius:50px;
+    font-weight:bold;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,0.35);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>JP Unisex Salon</h1>
+<p>Professional Grooming | Styling | Beauty Care</p>
+<p>54, Narayan Marg, Heera Nagar, Tagore Nagar, Jaipur – 302021</p>
+<p>Phone: 080058 65705</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#booking">Appointment</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero"></section>
+
+<div class="container" id="about">
+<h2 class="section-title">About JP Unisex Salon</h2>
+<p>
+JP Unisex Salon is a modern, premium grooming and beauty destination in Jaipur, offering
+professional services for men and women under one roof. The salon is designed to provide
+a comfortable, hygienic, and stylish environment where clients can relax and enjoy
+expert care.
+</p>
+<p>
+With skilled professionals, premium products, and the latest techniques in hair styling,
+beauty care, and grooming, JP Unisex Salon ensures personalised services that match
+individual preferences, trends, and lifestyles.
+</p>
+<p>
+Customer satisfaction, hygiene standards, and attention to detail are the core values
+that define our service philosophy.
+</p>
+</div>
+
+<div class="container" id="services">
+<h2 class="section-title">Our Services</h2>
+
+<div class="services-grid">
+<div class="service-box">
+<h3>Hair Services</h3>
+<p>Hair cutting, styling, hair colouring, highlights, smoothing, keratin treatment, and hair spa.</p>
+</div>
+
+<div class="service-box">
+<h3>Men’s Grooming</h3>
+<p>Haircut, beard styling, shaving, head massage, facial treatments, and scalp care.</p>
+</div>
+
+<div class="service-box">
+<h3>Women’s Beauty</h3>
+<p>Facials, clean-ups, waxing, threading, manicure, pedicure, and bridal preparation.</p>
+</div>
+
+<div class="service-box">
+<h3>Make-Up & Styling</h3>
+<p>Party makeup, bridal makeup, engagement looks, hairstyling for special occasions.</p>
+</div>
+</div>
+</div>
+
+<div class="container gallery" id="gallery">
+<h2 class="section-title">Salon Gallery</h2>
+<img src="WhatsApp Image 2026-01-02 at 15.31.06.jpeg" alt="JP Unisex Salon Interior">
+<img src="WhatsApp Image 2026-01-02 at 15.31.26.jpeg" alt="Salon Services">
+</div>
+
+<div class="container" id="booking">
+<h2 class="section-title">Book an Appointment</h2>
+<p>
+Fill in the enquiry form below and our team will contact you to confirm your appointment.
+</p>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<input type="email" placeholder="Email Address (optional)">
+<textarea rows="4" placeholder="Service Required / Preferred Time"></textarea>
+<button type="submit">Send Enquiry</button>
+</form>
+</div>
+
+<div class="container" id="contact">
+<h2 class="section-title">Contact & Location</h2>
+<p><strong>Address:</strong><br>
+54, Narayan Marg, Heera Nagar, Tagore Nagar,<br>
+Jaipur, Rajasthan – 302021
+</p>
+<p><strong>Phone:</strong> 080058 65705</p>
+
+<iframe 
+src="https://www.google.com/maps?q=54%20Narayan%20Marg%20Heera%20Nagar%20Jaipur&output=embed"
+width="100%" height="350" style="border:0;" loading="lazy">
+</iframe>
+</div>
+
+<footer>
+<p>© 2026 JP Unisex Salon. All Rights Reserved.</p>
+<p>Style • Care • Confidence</p>
+</footer>
+
+<a class="whatsapp-btn" href="https://wa.me/918005865705" target="_blank">
+WhatsApp Us
+</a>
+
+</body>
+</html>
